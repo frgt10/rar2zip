@@ -1,0 +1,12 @@
+[Desktop Entry]
+Actions=rar2zip
+Icon=convert
+Encoding=UTF-8
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin,application/vnd.rar,application/x-rar
+
+[Desktop Action rar2zip]
+Name=Conver RAR to ZIP
+Name[ru]=Преобразовать RAR в ZIP
+Exec=rar2zip.sh %f
+Icon=convert
